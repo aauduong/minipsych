@@ -6,7 +6,7 @@ def mail_receiver (mail_arr):
 	# Make 
 	pop_conn = poplib.POP3_SSL('pop.gmail.com')
 	pop_conn.user('auduongalicia')
-	pop_conn.pass_('theslashdrag0n')
+	pop_conn.pass_('________')
 	#Get messages from server:
 	messages = [pop_conn.retr(i) for i in range(1, len(pop_conn.list()[1]) + 1)]
 	# Concat message pieces:
