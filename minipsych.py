@@ -5,8 +5,8 @@ import sys
 
 creds = {
   "url": "https://gateway.watsonplatform.net/personality-insights/api",
-  "password": "8g4RVjkqKUBe",
-  "username": "e43d7b77-b6db-43b1-bd4d-4997d5a13ba5"
+  "password": "____________",
+  "username": "_____________________"
 }
 
 def update_insights(client_name):
