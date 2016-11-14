@@ -19,7 +19,7 @@ def send_mail (recipient, subject, body):
 	smtp_port=587
 	smtp_mode='tls'
 	smtp_login='auduongalicia@gmail.com'
-	smtp_password='theslashdrag0n'
+	smtp_password='_________'
 
 	ret=pyzmail.send_mail(payload, mail_from, rcpt_to, smtp_host, \
 	        smtp_port=smtp_port, smtp_mode=smtp_mode, \
